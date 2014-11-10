@@ -1,3 +1,4 @@
+![alt](https://travis-ci.org/simon-kim/Travis-Testing.svg)
 Travis-Testing
 ==============
 
