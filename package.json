@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "test"
+    "test": "node_modules/grunt-cli/bin/grunt test",
   },
   "author": "",
   "license": "ISC",
