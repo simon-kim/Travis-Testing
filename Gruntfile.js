@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       options: {
         node: true
       },
-      src: ["./index.js", "/test/*.js"]
+      src: ["./index.js", "./test/*.js"]
     },
 
     jscs: {
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     },
 
     simplemocha: {
-      src: ["test/*.js"]
+      src: ["./test/*.js"]
     }
   });
 
