@@ -10,4 +10,4 @@ Counter.prototype.value = function() {
   return this.value;
 };
 
-modules.exports = Counter;
+module.exports = Counter;
