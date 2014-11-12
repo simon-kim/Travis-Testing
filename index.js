@@ -6,8 +6,5 @@ Counter.prototype.increment = function() {
   this.value++;
 };
 
-Counter.prototype.value = function() {
-  return this.value;
-};
-
+var cntr = new Counter();
 module.exports = Counter;
