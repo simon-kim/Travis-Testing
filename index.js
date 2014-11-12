@@ -3,7 +3,7 @@ var Counter = function() {
 };
 
 Counter.prototype.increment = function() {
-  this.value++;
+  this.count++;
 };
 
 var cntr = new Counter();
