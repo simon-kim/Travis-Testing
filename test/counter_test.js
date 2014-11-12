@@ -8,7 +8,7 @@ describe('the counter', function() {
   });
 
   it("should increment by 1", function() {
-    Counter.increment();
+    cntr.increment();
     expect(cntr.count).to.eql(1);
   });
 });
