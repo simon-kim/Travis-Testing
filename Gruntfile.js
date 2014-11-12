@@ -12,10 +12,10 @@ module.exports = function(grunt) {
     },
 
     jscs: {
+      src: ["./index.js"],
       options: {
         config: ".jscsrc"
-      },
-      src: ["./index.js"]
+      }
     },
 
     simplemocha: {
