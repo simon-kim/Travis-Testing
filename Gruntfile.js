@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
     jscs: {
       options: {
-        preset: "airbnb"
+        config: ".jscsrc"
       },
       src: ["./index.js"]
     },
