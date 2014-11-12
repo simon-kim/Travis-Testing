@@ -7,4 +7,4 @@ Counter.prototype.increment = function() {
 };
 
 var cntr = new Counter();
-module.exports = Counter;
+module.exports = cntr;
