@@ -11,18 +11,11 @@ module.exports = function(grunt) {
       src: ["./index.js", "./test/*.js"]
     },
 
-    jscs: {
-      src: ["./index.js"],
-      options: {
-        config: ".jscsrc"
-      }
-    },
-
     simplemocha: {
       src: ["./test/*.js"]
     }
   });
 
-  grunt.registerTask("test", ["jshint", "jscs", "simplemocha"]);
+  grunt.registerTask("test", ["jshint", "simplemocha"]);
   grunt.registerTask("default", ["test"]);
 };
