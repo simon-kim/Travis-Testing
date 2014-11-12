@@ -1,6 +1,6 @@
 var chai = require("chai");
 var expect = require("chai").expect;
-var Counter = require("../index");
+var cntr = require("../index");
 
 describe('the counter', function() {
   it("should be 0", function() {
