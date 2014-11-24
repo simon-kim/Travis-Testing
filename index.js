@@ -3,11 +3,8 @@ var Counter = function() {
 };
 
 Counter.prototype.increment = function() {
-  this.value++;
+  this.count++;
 };
 
-Counter.prototype.value = function() {
-  return this.value;
-};
-
-modules.exports = Counter;
+var cntr = new Counter();
+module.exports = cntr;
